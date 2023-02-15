@@ -16,9 +16,7 @@ public class Comparable {
         System.out.println(customers);
 
         Collections.sort(customers,new EmailComparator());
-
         System.out.println(customers);
-
 
     }
 }
