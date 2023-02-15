@@ -13,6 +13,7 @@ public class Comparable {
         customers.add(new Customer("C"));
 
         Collections.sort(customers);
+        System.out.println(customers);
 
 
     }
