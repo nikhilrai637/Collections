@@ -1,6 +1,11 @@
+import generics.GenericList;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        var list = new GenericList<String>();
+        for(var item : list){
+
+        }
     }
 }
